@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         LoginButton = findViewById(R.id.login_button);
         // we will redirect to webpage and login their(if already login then dont need to login again),
-        // then redirect to our app then cathc that code and use that code to access token
+        // then redirect to our app then catch  that code and use that code to access token.
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/login/oauth/authorize"
                 +"\"?client_id="+clientID
                 +"&scope=repo&redirect_url="+redirctUrl));
