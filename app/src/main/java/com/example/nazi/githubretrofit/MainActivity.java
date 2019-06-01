@@ -23,8 +23,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public final String Log_Tag = getClass().getSimpleName();
     private Button LoginButton;
-    private String clientID="874f695ca5c40f11a4cb";
-    private String clientSecreat = "8dca73aa4f67a7529e3d1707c3615478585be812";
+    //registor your app on github ,get client id and client secreat .
+    private String clientID="Your client id ";
+    private String clientSecreat = "Your Secreat";
     private String redirctUrl ="Learningandroidio://callback";
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
